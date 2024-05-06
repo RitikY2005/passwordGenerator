@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"  href="style.css">
+        <title>Generate secure and strong password</title>
+    </head>
+
+    <body>
+         <div class="main">
+            <div class="container">
+                <div class="container_content">
+                        <p class="heading">Password Generator</p>
+                        <input type="text" placeholder="click on Generate button" name="password" id="password_text" readonly>
+                    
+
+                    <div class="buttons">
+                        <button class="generate_btn">Generate</button>
+                        <button class="copy_btn">
+                             <span class="tooltip" id="myTooltip" >Copy to clipboard</span>
+                            Copy password
+                        </button>
+                    </div>
+                    
+                    
+                       <ul class="password_complexity">
+                         <li>
+                            
+                            <span> Password Length (max:20): </span> <input type="number" id="password_length">
+
+                         </li>
+
+                        <li>
+                        
+                            <span> Include Uppercase Letters:</span> <input type="checkbox" name="uppercase" id="uppercase_st">
+                        
+                        </li>
+
+                        <li>
+                        
+                            <span> Include Lowercase Letters:</span> <input type="checkbox" name="Lowercase" id="lowercase_st">
+                        
+                        </li>
+
+                        <li>
+                        
+                            <span> Include Numbers:</span> <input type="checkbox" name="numbers" id="numbers_st">
+                        
+                        </li>
+
+                        <li>
+                        
+                            <span> Include Symbols</span> <input type="checkbox" name="symbols" id="symbols_st">
+                        
+                        </li>
+
+                        
+
+
+                       </ul>
+                    
+
+                </div>
+            </div>
+         </div>
+
+
+         <script src="script.js"> </script>
+    </body>
+
+</html>
